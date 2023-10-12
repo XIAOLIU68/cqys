@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "编辑资料",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#080d16",
+  "usingComponents": {
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section"
+  }
+}

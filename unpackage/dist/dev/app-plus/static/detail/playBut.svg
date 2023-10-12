@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124" fill="none"><defs><filter id="filter_2" x="-34" y="-34" width="124" height="124" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+          <feOffset dx="0" dy="10"/>
+          <feGaussianBlur stdDeviation="17"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0.03529411764705882 0 0 0 0 0.3843137254901961 0 0 0 0 0.9176470588235294 0 0 0 0.72 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_Shadow"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_Shadow" result="shape"/></filter><filter id="filter_4" x="-18" y="-18" width="92" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+          <feOffset dx="0" dy="10"/>
+          <feGaussianBlur stdDeviation="17"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.25882352941176473 0 0 0 0 0.26666666666666666 0 0 0 0.72 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_Shadow"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_Shadow" result="shape"/></filter></defs><g opacity="1" transform="translate(34 24)  rotate(0 28 28)"><g id="Ellipse 6" filter="url(#filter_2)"><path id="Ellipse 6" fill-rule="evenodd" style="fill:#0962EA" transform="translate(0 0)  rotate(0 28 28)" opacity="1" d="M28,0C12.54,0 0,12.54 0,28C0,43.46 12.54,56 28,56C43.46,56 56,43.46 56,28C56,12.54 43.46,0 28,0Z " /></g><g id="Polygon 1" filter="url(#filter_4)"><path id="Polygon 1" fill-rule="evenodd" style="fill:#FFFFFF" transform="translate(16 16)  rotate(270 12 12)" opacity="1" d="M20.66,6L3.34,6C2.98,6 2.65,6.19 2.47,6.5C2.29,6.81 2.29,7.19 2.47,7.5L11.13,22.5C11.31,22.81 11.64,23.01 12,23.01C12.36,23.01 12.69,22.81 12.87,22.5L21.53,7.5C21.71,7.19 21.71,6.81 21.53,6.5C21.35,6.19 21.02,6 20.66,6Z " /></g></g></svg>

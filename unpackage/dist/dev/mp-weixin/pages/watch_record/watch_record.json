@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "观看记录",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#080d16",
+  "usingComponents": {
+    "u-empty": "../../uni_modules/uview-plus/components/u-empty/u-empty"
+  }
+}

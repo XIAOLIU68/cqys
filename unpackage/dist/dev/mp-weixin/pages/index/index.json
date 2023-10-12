@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-search": "../../uni_modules/uview-plus/components/u-search/u-search",
+    "u-notice-bar": "../../uni_modules/uview-plus/components/u-notice-bar/u-notice-bar",
+    "u-sticky": "../../uni_modules/uview-plus/components/u-sticky/u-sticky",
+    "u-swiper": "../../uni_modules/uview-plus/components/u-swiper/u-swiper",
+    "u-tabs": "../../uni_modules/uview-plus/components/u-tabs/u-tabs",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u--text": "../../uni_modules/uview-plus/components/u--text/u--text",
+    "u-modal": "../../uni_modules/uview-plus/components/u-modal/u-modal",
+    "u-line-progress": "../../uni_modules/uview-plus/components/u-line-progress/u-line-progress",
+    "my-swipter": "./swiper"
+  }
+}

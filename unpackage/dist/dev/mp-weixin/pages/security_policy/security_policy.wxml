@@ -1,0 +1,1 @@
+<view class="security-box"><u-navbar wx:if="{{a}}" u-i="8637d89e-0" bind:__l="__l" u-p="{{a}}"></u-navbar><view wx:for="{{b}}" wx:for-item="item"><uni-title wx:if="{{item.b}}" style="margin-left:1rem" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"></uni-title><text class="sec_content">{{item.c}}</text></view><view class="footer"><text>最终解释权由软件作者所有</text></view></view>

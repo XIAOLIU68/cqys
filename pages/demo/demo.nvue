@@ -1,0 +1,47 @@
+<template>
+	<video id="videoRef" :autoplay="true" :src="path" enable-danmu danmu-btn>
+		<cover-view
+			style="position: absolute; right:0px; top: 0px; color: blue; width: 300px; height: 300px; background-color: rgba(255, 255, 0, 0.2);">
+			<text style="color: red;" v-if="isShow">1.5倍加速中...</text>
+			<view @longpress="demo" @touchend="demo1" catch:touchstart
+				style="width: 100px; height: 200px; background-color: pink; position: absolute; right: 0px; top:0px;">
+			</view>
+		</cover-view>
+	</video>
+</template>
+
+<script>
+	import {
+		getCurrentInstance,
+		onMounted,
+		ref
+	} from 'vue'
+
+	const currentInstance = getCurrentInstance()
+	let path = ref('')
+	let isShow = ref(false)
+	let videoContext = uni.createVideoContext('videoRef', getCurrentInstance())
+	// 播放速度设置关闭回调
+	let demo = () => {
+		videoContext.playbackRate(1.5)
+		isShow.value = true
+	}
+
+	onMounted(() => {
+		console.log('执行了啊');
+		const value = uni.getStorageSync('path');
+		if (value) {
+			path.value = value
+			videoContext.requestFullScreen();
+		}
+	})
+
+	let demo1 = () => {
+		videoContext.playbackRate(1)
+		isShow.value = false
+	}
+</script>
+
+<style lang="less" scoped>
+
+</style>

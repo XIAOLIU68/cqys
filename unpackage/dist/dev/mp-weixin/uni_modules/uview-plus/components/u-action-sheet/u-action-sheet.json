@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-icon": "../u-icon/u-icon",
+    "u-line": "../u-line/u-line",
+    "u-loading-icon": "../u-loading-icon/u-loading-icon",
+    "u-gap": "../u-gap/u-gap",
+    "u-popup": "../u-popup/u-popup"
+  }
+}

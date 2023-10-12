@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-action-sheet": "../../uni_modules/uview-plus/components/u-action-sheet/u-action-sheet",
+    "u-popup": "../../uni_modules/uview-plus/components/u-popup/u-popup"
+  }
+}

@@ -1,0 +1,120 @@
+.search-box.data-v-c10c040c {
+  width: 100%;
+  background-color: #080d16;
+  height: auto;
+}
+.search-box .footer-box-bottom.data-v-c10c040c {
+  width: 100%;
+  height: 3rem;
+  background-color: #080d16;
+  margin-bottom: -3rem;
+  text-align: center;
+  color: #ccc;
+  line-height: 3rem;
+  font-size: 0.8rem;
+}
+.search-box .loading-box.data-v-c10c040c {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-box .loading-box .loading-img.data-v-c10c040c {
+  animation: loadingImg-c10c040c 1s linear infinite alternate;
+}
+@keyframes loadingImg-c10c040c {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.5;
+}
+100% {
+    opacity: 0.1;
+}
+}
+.search-box.data-v-c10c040c .u-subsection__bar {
+  background-color: #28304c !important;
+}
+.search-box .search-box.data-v-c10c040c {
+  padding-top: var(--status-bar-height);
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #080d16;
+  padding-bottom: 0.5rem;
+}
+.search-box .search-box image.data-v-c10c040c {
+  width: 10%;
+}
+.search-box .search-box .search.data-v-c10c040c {
+  width: 85%;
+}
+.search-box .list-box-item.data-v-c10c040c {
+  flex-shrink: 0;
+  width: 100%;
+  min-height: calc(100vh);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  scroll-snap-align: center;
+}
+.search-box .list-box-item .list-item.data-v-c10c040c {
+  width: 30%;
+  height: 12rem;
+}
+.search-box .list-box-item .list-item image.data-v-c10c040c {
+  width: 100%;
+  height: 80%;
+  border-radius: 0.5rem;
+  will-change: transform;
+  animation: list_keyframes-c10c040c 1s;
+}
+@keyframes list_keyframes-c10c040c {
+0% {
+    transform: scale(0.1);
+}
+100% {
+    transform: scale(1);
+}
+}
+.search-box .list-box-item .list-item .footer.data-v-c10c040c {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.search-box .list-box-item .list-item .footer.data-v-c10c040c :first-child {
+  width: 100%;
+  font-size: 0.8rem;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search-box .list-box-item .list-item .footer.data-v-c10c040c :last-child {
+  width: 100%;
+  font-size: 0.7rem;
+  color: #5B6783;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search-box .not-data.data-v-c10c040c {
+  width: 100%;
+  min-height: calc(100vh - 50rpx);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 0.8rem;
+}
+.search-box .not-data image.data-v-c10c040c {
+  width: 8rem;
+  height: 8rem;
+}

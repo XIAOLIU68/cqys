@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "大家都在看",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#080d16",
+  "usingComponents": {}
+}

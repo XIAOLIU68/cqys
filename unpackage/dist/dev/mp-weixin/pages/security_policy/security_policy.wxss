@@ -1,0 +1,17 @@
+.security-box {
+  width: 100%;
+  background-color: #080d16;
+  color: #88888a;
+}
+.sec_content {
+  padding-left: 2rem;
+  line-height: 2rem;
+}
+.footer {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5d68b6;
+}

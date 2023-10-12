@@ -1,0 +1,192 @@
+.content[data-v-bac4a35d] {
+  overflow: hidden;
+  height: calc(100vh);
+  background-color: #fafbff;
+}
+.content .back-box[data-v-bac4a35d] {
+  padding-top: var(--status-bar-height);
+}
+.content .back-box[data-v-bac4a35d] {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.content .back-box uni-image[data-v-bac4a35d] {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+}
+.content .title-box[data-v-bac4a35d] {
+  position: relative;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  width: 100%;
+  height: 10rem;
+  /*嘿！
+			赶紧注册吧!*/
+  /** 文本1 */
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #5d68b6;
+  text-align: left;
+  opacity: 0;
+  animation: in_keyframes1-bac4a35d 1s 0.1s forwards;
+}
+.content .title-box span[data-v-bac4a35d] {
+  display: block;
+}
+.content .title-box .title-item[data-v-bac4a35d] {
+  /*欢迎回来～
+				我们等你好久了!*/
+  opacity: 0.5;
+  /** 文本1 */
+  font-size: 0.4em;
+  font-weight: 400;
+  color: #343965;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 1rem;
+}
+.content .account-box[data-v-bac4a35d] {
+  width: 100%;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: #5d68b6;
+}
+.content .account-box .account-ruleTitle[data-v-bac4a35d] {
+  position: absolute;
+  top: 3.3rem;
+  right: 3rem;
+  font-size: 0.7rem;
+  color: red;
+  animation: rule-bac4a35d 0.5s;
+}
+@keyframes rule-bac4a35d {
+25% {
+    right: 3.5rem;
+}
+50% {
+    right: 3rem;
+}
+75% {
+    right: 3.5rem;
+}
+100% {
+    right: 3rem;
+}
+}
+.content .account-box .password-ruleTitle[data-v-bac4a35d] {
+  position: absolute;
+  top: 8.5rem;
+  right: 3rem;
+  font-size: 0.7rem;
+  color: red;
+  animation: rule-bac4a35d 0.5s;
+}
+.content .account-box .ruleTitle1[data-v-bac4a35d] {
+  top: 13.7rem;
+}
+.content .account-box .account[data-v-bac4a35d] {
+  /*rectangle 29*/
+  width: 14rem;
+  height: 3.2rem;
+  background: #ecf2ff;
+  border-radius: 1.5rem;
+  position: relative;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+.content .account-box .account[data-v-bac4a35d]::before {
+  content: '账号 :';
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  /*邮箱 */
+  color: #343965;
+  opacity: 0.6;
+}
+.content .account-box .password[data-v-bac4a35d] {
+  margin-top: 2rem;
+  /*rectangle 29*/
+  width: 14rem;
+  height: 3.2rem;
+  background: #ecf2ff;
+  border-radius: 1.5rem;
+  position: relative;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+.content .account-box .password[data-v-bac4a35d]::after {
+  content: '密码 :';
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  /*邮箱 */
+  color: #343965;
+  opacity: 0.6;
+}
+.content .account-box .wj-password[data-v-bac4a35d] {
+  width: 17.5rem;
+  margin-top: 2rem;
+  position: relative;
+  /*忘记密码?*/
+  opacity: 0.5;
+  /** 文本1 */
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #343965;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .login-but-box[data-v-bac4a35d] {
+  width: 100%;
+  height: 5rem;
+  margin-top: 3rem;
+}
+.content .login-but-box .loginBut[data-v-bac4a35d] {
+  /*rectangle 33*/
+  width: 19rem;
+  height: 2.8rem;
+  opacity: 1;
+  background: #585ce5;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 29, 176, 0.3);
+  color: white;
+  font-weight: 600;
+}
+.content .login-but-box .loginBut[data-v-bac4a35d]:active {
+  background: #3b3e9a;
+}
+.content .regr-box[data-v-bac4a35d] {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 3rem;
+}
+.content .regr-box .regr-title[data-v-bac4a35d] {
+  /*没有账号? 点击这里*/
+  /** 文本1 */
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #343965;
+}
+/**
+	 * @进入动画定义
+	 */
+@keyframes in_keyframes1-bac4a35d {
+from {
+    top: 3rem;
+    opacity: 0.1;
+}
+to {
+    top: 0;
+    opacity: 1;
+}
+}

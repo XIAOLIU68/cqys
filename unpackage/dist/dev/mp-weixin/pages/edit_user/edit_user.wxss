@@ -1,0 +1,22 @@
+.discover-box.data-v-702a44f5 {
+  width: 100%;
+  background-color: #080d16;
+  min-height: calc(100vh);
+  color: white;
+}
+.sub.data-v-702a44f5 {
+  width: 19rem;
+  height: 2.8rem;
+  opacity: 1;
+  background: #585ce5;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 29, 176, 0.3);
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sub.data-v-702a44f5:active {
+  background: #3b3e9a;
+}

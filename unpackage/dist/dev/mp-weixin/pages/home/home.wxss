@@ -1,0 +1,191 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.home-box {
+  background-color: #080d16;
+  overflow: hidden;
+  height: 100vh;
+}
+.home-box .check_tx {
+  width: 50%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+}
+.home-box .user-bg-box {
+  padding-top: var(--status-bar-height);
+  width: 100%;
+  height: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f9f9f9;
+  transition: 1s;
+  background-position: center;
+}
+.home-box .user-bg-box .nav-box {
+  width: 90%;
+  height: 3rem;
+  color: white;
+  font-size: 1rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home-box .user-bg-box .nav-box .nav-item {
+  padding: 0.5rem;
+  -webkit-backdrop-filter: blur(0.1rem);
+          backdrop-filter: blur(0.1rem);
+  border-radius: 1rem;
+}
+.home-box .user-tx-box {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: -10px;
+}
+.home-box .user-tx-box .progr-box {
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #ccc;
+}
+.home-box .user-tx-box .user_image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.2rem solid white;
+  transition: 1s;
+  position: absolute;
+  left: 1rem;
+  top: -2rem;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.home-box .user-tx-box .user-LV {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #ccc;
+  position: relative;
+}
+.home-box .user-tx-box .user-LV .LV {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  left: 4.5rem;
+  top: 1.5rem;
+}
+.home-box .user-tx-box .user-LV .lv_name {
+  width: 9rem;
+  height: 2rem;
+  display: flex;
+  position: absolute;
+  left: 8rem;
+  top: 1rem;
+  align-items: center;
+}
+.home-box .user-tx-box .user-LV .lv_name span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.home-box .user-tx-box .user-LV .user-sex {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 0.2rem;
+}
+.home-box .user-tx-box .user-LV .edit-user {
+  position: absolute;
+  right: 1rem;
+  top: 1.3rem;
+  height: 1.6rem;
+  width: 5rem;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #409EFF;
+  color: white;
+  border-radius: 2rem;
+}
+.home-box .user-nav-box {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: pink;
+  border-radius: 1rem;
+  padding: 0.5rem 0rem;
+  background-color: #15191f;
+}
+.home-box .user-nav-box .issue-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999999;
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+.home-box .user-nav-box .number {
+  color: #409EFF;
+  padding-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+.home-box .function-list-box {
+  width: 100%;
+  height: 23rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  color: #f8f8f8;
+}
+.home-box .function-list-box .item:active {
+  background-color: #1d232c;
+  color: #3b3e9a;
+}
+.home-box .function-list-box .item {
+  width: 90%;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #15191f;
+}
+.home-box .function-list-box .item .item-left-box {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.home-box .function-list-box .item .item-left-box .item-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  color: #999999;
+}
+.home-box .function-list-box .item image {
+  width: 1.5rem;
+  height: 1.5rem;
+}

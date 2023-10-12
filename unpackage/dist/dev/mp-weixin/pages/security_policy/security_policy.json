@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "../../uni_modules/uview-plus/components/u-navbar/u-navbar",
+    "uni-title": "../../uni_modules/uni-title/components/uni-title/uni-title"
+  }
+}
